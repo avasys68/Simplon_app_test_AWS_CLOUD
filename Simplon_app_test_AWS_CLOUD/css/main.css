@@ -1,0 +1,88 @@
+body{
+    font-family: 'copse', serif;
+    color: #44586e;
+}  
+.perso_policeTitre{font-family: 'Fredoka One', cursive;}
+
+.perso_shadow{box-shadow: 0px 2px 15px black;}
+.perso1_shadow{box-shadow: 0px 1px 2px black;}
+
+.perso_logoSize{width: 100px;} 
+
+.perso_colorBlancMenu{color:#ffffff !important;}
+
+.perso_colorOrangeMenu{background-color:rgb(247, 179, 91) !important;}
+
+.perso_colorBleutMenu{color: #070083 !important;}
+
+.perso_colorRougeMenu{color:rgb(154, 0, 0) !important ;}
+
+.perso_colorBleuCielMenu{color: #40E0D0 !important;}
+
+.perso_size20{font-size: 20px;}
+
+.perso_minCorpSize{min-height: 500px;}
+
+.perso_textShadow{text-shadow: 1px 1px 1px black;}
+  
+#form1{
+  max-width: 800px;
+  margin: 50px auto;
+  position: relative;
+  box-shadow: 0 10px 20px 0px rgba(112, 0, 0, 0.381);
+  padding: 30px;
+}
+
+#form #form-group{
+  position: relative;
+  margin: 32px 0;
+}
+#form .form-control{
+  display: block;
+  width: 350px;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  /*border-color: #820101;*/
+  font-size: 18px;
+  line-height: 26px;
+}
+
+#form .form-control:focus{
+  outline: none;
+}
+
+#form .label{
+  position: absolute;
+  left: 30px;
+  bottom: 25px;
+  font-size: 18px;
+  line-height: 26px;
+  color:#820101 ;
+  cursor: text;
+  text-transform: capitalize;
+  transition: transform 0.2s ease-in-out;
+}
+
+#form .btn{
+  display: inline-block;
+  /*background-color: #820101;*/
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 20px;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+}
+
+#form #liste{
+  display: inline-block;
+  /*color: #820101;*/
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  width: 200px;
+  list-style: none;
+  margin-left: 10px 5px;
+
+}
